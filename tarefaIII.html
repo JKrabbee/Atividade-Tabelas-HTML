@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>III</title>
+    <style>
+        header{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        nav{
+            list-style: none;
+            display: flex;
+            
+        }
+        nav li{
+            margin-right: 5vmax;
+        }
+        table{
+            width: 25%;
+        }
+        table, th, tr, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 1vmax;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><li>Tarefa I</li></a>
+            <a href="tarefaII.html"><li>Tarefa II</li></a>
+            <a href="tarefaIII.html"><li>Tarefa III</li></a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h2>Tabela 1:</h2>
+        <table>
+            <tr>
+                <td colspan="3">1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+        </table>
+        <h2>Tabela 2:</h2>
+        <table>
+            <tr>
+                <td rowspan="3">1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+        </table>
+        <h2>Tabela 3:</h2>
+        <table>
+            <tr>
+                <td colspan="5">1</td>
+            </tr>
+            <tr>
+                <td rowspan="4">2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td rowspan="2">9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td colspan="3">13</td>
+                <td>14</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
